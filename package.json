@@ -1,0 +1,18 @@
+{
+  "name": "environment",
+  "version": "1.0.0",
+  "description": "Desc",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "scp -r -i sdmx.pem Excel-sdmx/dist ec2-user@34.244.131.191:~/"
+  },
+  "author": "",
+  "license": "ISC"
+}

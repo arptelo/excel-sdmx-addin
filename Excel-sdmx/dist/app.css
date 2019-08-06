@@ -1,0 +1,24 @@
+body {
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.8rem
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #EEE;
+}
+
+.nav-link {
+    color: #333;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #333;
+}
+
+.fa-bars {
+    cursor: pointer;
+}
